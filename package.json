@@ -1,0 +1,28 @@
+{
+  "name": "raureif-babel",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "raureif build",
+    "start": "raureif serve",
+    "test": "raureif test --ci",
+    "prepublish": "npm run build",
+    "prebuild": "npm run test"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/*",
+    "!dist/node",
+    "!dist/polyfill.js"
+  ],
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "raureif": "2.0.7",
+    "raureif-eslint": "0.1.0",
+    "yarn": "^1.2.1"
+  },
+  "license": "MIT"
+}
