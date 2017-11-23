@@ -1,6 +1,6 @@
 {
   "name": "raureif-babel",
-  "version": "0.1.0",
+  "version": "3.0.1",
   "scripts": {
     "build": "raureif build",
     "start": "raureif serve",
@@ -18,15 +18,14 @@
     "!dist/polyfill.js"
   ],
   "peerDependencies": {
-    "raureif": "2.0.7"
+    "raureif": ">= 3"
   },
   "devDependencies": {
-    "raureif": "2.0.2",
-    "yarn": "^1.2.1"
+    "raureif": "3.0.2",
+    "raureif-babel": "^0.1.0"
   },
   "license": "MIT",
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "broccoli-babel-transpiler": "^6.1.2"
+    "broccoli-babel-transpiler": "6.1.2"
   }
 }
